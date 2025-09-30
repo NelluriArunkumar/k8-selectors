@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: Node-selector-demo
+  name: node-selector-demo
   labels:
     env: test
 spec:
