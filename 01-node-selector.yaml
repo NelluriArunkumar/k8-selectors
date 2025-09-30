@@ -11,3 +11,6 @@ spec:
     imagePullPolicy: Always
   nodeSelector:
     disktype: ssd
+
+##kubectl label nodes ip-192-168-32-167.ec2.internal disktype=ssd
+##Here we are labeling the node based on disk type and setting the image pull poliicy as always...
