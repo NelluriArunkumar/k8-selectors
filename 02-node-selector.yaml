@@ -20,3 +20,8 @@ spec:
     operator: "Equal"
     value: "value1"
     effect: "NoSchedule"
+
+##kubectl taint nodes ip-192-168-32-167.ec2.internal key1=value1:NoSchedule
+##kubectl taint nodes ip-192-168-32-167.ec2.internal key1=value1:NoExecute
+##Here we are tainting the node on NoSchedule and NoExecute values
+##So we are tolerating the pod to run node based on two values...
