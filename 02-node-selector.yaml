@@ -25,3 +25,4 @@ spec:
 ##kubectl taint nodes ip-192-168-32-167.ec2.internal key1=value1:NoExecute
 ##Here we are tainting the node on NoSchedule and NoExecute values
 ##So we are tolerating the pod to run node based on two values...
+##And also we using Node Selector also for better results..
