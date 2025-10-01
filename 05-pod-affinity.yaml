@@ -28,4 +28,4 @@ spec:
             operator: In
             values:
             - pod-1
-        topologuKey: "kubernetes.io/hostname"
+        topologyKey: "kubernetes.io/hostname"
